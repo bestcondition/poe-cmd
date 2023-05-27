@@ -1,0 +1,13 @@
+{
+  "devDependencies": {
+    "@types/node": "^20.2.5",
+    "@types/ws": "^8.5.4",
+    "ts-node": "^10.9.1",
+    "typescript": "^5.0.4"
+  },
+  "dependencies": {
+    "chalk": "^4.1.2",
+    "deepmerge-ts": "^5.1.0",
+    "ws": "^8.13.0"
+  }
+}
