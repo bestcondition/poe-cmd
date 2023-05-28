@@ -2,9 +2,10 @@ import {createHash} from 'crypto';
 import {URL} from "url";
 import {deep_copy} from "./utils";
 import {app_settings} from "./config";
+import fetch from 'node-fetch';
 
 export interface POESettings {
-    tchannelData: {
+    tchannelData?: {
         minSeq: string,
         channel: string,
         channelHash: string,
