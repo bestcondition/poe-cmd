@@ -12,3 +12,5 @@ ts-node index.ts init cookie channel
 # run app
 ts-node index.ts
 ```
+
+![](./image/run_test.jpg)
