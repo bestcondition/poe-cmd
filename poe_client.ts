@@ -53,7 +53,7 @@ export class POEClient {
         process.stdout.write(chalk.green('Answer: '))
     }
 
-    start() {
+    async start() {
         this.socket_manager.message_handler = this.message_handler.bind(this)
         this.socket_manager.start()
         process.stdin.on('data', this.stdin_handler.bind(this))
