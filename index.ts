@@ -12,7 +12,6 @@ async function server_forever() {
 }
 
 async function main() {
-    //如果第一个参数是 init，那么就初始化
     if (process.argv[2] === 'init') {
         await app_init(process.argv[3], process.argv[4])
     } else {
