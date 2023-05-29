@@ -1,15 +1,16 @@
 {
   "name": "poe-cmd",
-  "version": "1.0.1",
+  "version": "1.0.9",
   "description": "",
   "main": "dist/index.js",
   "bin": {
     "poe-cmd": "bin/index.js"
   },
-   "scripts": {
+  "scripts": {
     "dev": "ts-node src/index.ts",
     "build": "tsc",
-    "patch":"yarn build && npm version patch && npm publish  --access public"
+    "pub": "yarn build && npm run patch && npm publish --registry https://registry.npmjs.org/",
+    "patch": "npm version patch --no-git-tag-version"
   },
   "files": [
     "dist",
