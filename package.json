@@ -1,4 +1,22 @@
 {
+  "name": "poe-cmd",
+  "version": "1.0.1",
+  "description": "",
+  "main": "dist/index.js",
+  "bin": {
+    "poe-cmd": "bin/index.js"
+  },
+   "scripts": {
+    "dev": "ts-node src/index.ts",
+    "build": "tsc"
+  },
+  "files": [
+    "dist",
+    "bin",
+    "package.json",
+    "README.md",
+    "LICENSE"
+  ],
   "devDependencies": {
     "@types/node": "^20.2.5",
     "@types/ws": "^8.5.4",
@@ -11,5 +29,7 @@
     "node-fetch": "^2.6.11",
     "uuid": "^9.0.0",
     "ws": "^8.13.0"
-  }
+  },
+  "author": "",
+  "license": "ISC"
 }
