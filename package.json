@@ -8,7 +8,8 @@
   },
    "scripts": {
     "dev": "ts-node src/index.ts",
-    "build": "tsc"
+    "build": "tsc",
+    "patch":"yarn build && npm version patch && npm publish  --access public"
   },
   "files": [
     "dist",
