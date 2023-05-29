@@ -3,14 +3,14 @@
 ## Usage
 
 ```bash
-# Install dependencies
-npm install
-# install typescript
-npm install ts-node -g
+# install
+npm i -g poe-cmd
+
 # init app
-ts-node index.ts init cookie channel
+poe-cmd init your-cookie your-channel
+
 # run app
-ts-node index.ts
+poe-cmd
 ```
 
 ![](./image/run_test.jpg)

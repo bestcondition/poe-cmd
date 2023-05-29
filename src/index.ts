@@ -20,7 +20,7 @@ async function main() {
         } catch (e) {
             console.log(e)
             console.log('please check your cookie')
-            console.log('if you want to init, please run: ts-node index.ts init <your cookie> <your channel>')
+            console.log('if you want to init, please run: poe-cmd init <your cookie> <your channel>')
         }
     }
 }
